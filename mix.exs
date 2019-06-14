@@ -4,7 +4,7 @@ defmodule OAuth2.Mixfile do
   @version "0.9.2"
 
   def project do
-    [app: :oauth2,
+    [app: :cs_oauth2,
      name: "OAuth2",
      version: @version,
      elixir: "~> 1.2",
