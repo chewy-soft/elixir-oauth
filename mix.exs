@@ -46,14 +46,14 @@ defmodule OAuth2.Mixfile do
     [extras: ["README.md"],
      main: "readme",
      source_ref: "v#{@version}",
-     source_url: "https://github.com/scrogson/oauth2"]
+     source_url: "https://github.com/chewy-soft/elixir-oauth2"]
   end
 
   defp package do
     [files: ["lib", "mix.exs", "README.md", "LICENSE"],
-     maintainers: ["Sonny Scroggin"],
+     maintainers: ["Jun Nagai"],
      licenses: ["MIT"],
-     links: %{github: "https://github.com/scrogson/oauth2"}]
+     links: %{github: "https://github.com/chewy-soft/elixir-oauth2"}]
   end
 
   defp elixirc_paths(:test), do: ["lib", "test/support"]
